@@ -24,7 +24,7 @@ $items = [
 
 $app = new Product($items);
 
-$days = 2;
+$days = 7;
 if ((is_countable($argv) ? count($argv) : 0) > 1) {
     $days = (int) $argv[1];
 }
