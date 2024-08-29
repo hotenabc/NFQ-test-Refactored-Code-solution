@@ -1,4 +1,4 @@
-# NFQ-test Product Refactoring - Solution
+# NFQ-test Product Refactored Code
 
 ### The original code for the NFQ-test:
 
