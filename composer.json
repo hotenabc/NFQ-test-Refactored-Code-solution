@@ -1,6 +1,6 @@
 {
-    "name": "emilybache/product-refactoring-kata",
-    "description": "A kata to practice refactoring, tests and polymorphism",
+    "name": "NFQ-test/product-refactoring",
+    "description": "Practice refactoring, tests and polymorphism",
     "license": "MIT",
     "require": {
         "php": "^8.0"
