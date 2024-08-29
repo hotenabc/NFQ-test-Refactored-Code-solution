@@ -615,9 +615,16 @@ The project uses composer to install:
 
 ## Folders
 
-- `src` - contains the two classes:
+- `src` - contains the two folder, the two classes:
     - `Service` - folder
+        - `ItemUpdater.php` - class
     - `UpdateStrategy` - folder
+        - `AgedBrieUpdateStrategy.php` - class
+        - `BackstagePassUpdateStrategy.php` - class
+        - `ConjuredUpdateStrategy.php` - class
+        - `DefaultUpdateStrategy.php` - class
+        - `SulfurasUpdateStrategy.php` - class
+        - `UpdateStrategyInterface.php` - class
     - `Item.php` - this class should not be changed
     - `Product.php` - this class needs to be refactored, and the new feature added
 - `tests` - contains the tests
