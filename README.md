@@ -573,8 +573,6 @@ As we can see, the `Product` class is now cleaner and more maintainable. By extr
 
 ## Installation: Same As Old-Code See [Old-Code](https://github.com/hotenabc/NFQ-test-Old-Code-solution.git)
 
-# NFQ-test Product Refactored-Code
-
 ## Installation
 
 The NFQ-test-Refactored-Code uses:
@@ -618,6 +616,8 @@ The project uses composer to install:
 ## Folders
 
 - `src` - contains the two classes:
+    - `Service` - folder
+    - `UpdateStrategy` - folder
     - `Item.php` - this class should not be changed
     - `Product.php` - this class needs to be refactored, and the new feature added
 - `tests` - contains the tests
