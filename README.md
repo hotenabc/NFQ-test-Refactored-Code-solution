@@ -573,7 +573,7 @@ As we can see, the `Product` class is now cleaner and more maintainable. By extr
 
 ## Installation: Same As Old-Code See [Old-Code](https://github.com/hotenabc/NFQ-test-Old-Code-solution.git)
 
-# NFQ-test Product Old-Code
+# NFQ-test Product Refactored-Code
 
 ## Installation
 
