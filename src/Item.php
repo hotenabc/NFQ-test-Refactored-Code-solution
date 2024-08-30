@@ -4,17 +4,20 @@ declare(strict_types=1);
 
 namespace Product;
 
-class Item implements \Stringable
-{
-    public function __construct(
-        public string $name,
-        public int $sellIn,
-        public int $quality
-    ) {
+class Item {
+
+    public $name;
+    public $sellIn;
+    public $quality;
+
+    function __construct($name, $sellIn, $quality) {
+        $this->name = $name;
+        $this->sellIn = $sellIn;
+        $this->quality = $quality;
     }
 
-    public function __toString(): string
-    {
-        return (string) "{$this->name}, {$this->sellIn}, {$this->quality}";
+    public function __toString() {
+        return "{$this->name}, {$this->sellIn}, {$this->quality}";
     }
+
 }
