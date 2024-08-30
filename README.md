@@ -110,8 +110,6 @@ class Item implements \Stringable
 }
 ```
 
-Since we shouldn't modify this class according to the NFQ-test's instructions, we'll leave it as is. Although adding setters could be beneficial for better encapsulation, it's not necessary for this task.
-
 ### The Product Class
 
 To apply the Strategy Pattern, we'll refactor the `Product` class to use strategies for updating items.
